@@ -1,0 +1,46 @@
+.shop-card {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F5F5F5;
+    text-transform: uppercase;
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    box-shadow: gray 0px 5px 10px 0px;
+    border-radius: 5px;
+}
+
+.shop-card-img img {
+    width: 300px;
+}
+
+.shop-card-name {
+    font-size: 30px;
+}
+
+.shop-card-color {
+    font-size: 14px;
+    text-transform: lowercase;
+}
+
+.shop-card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shop-card-price {
+    color: red;
+    font-size: 16px;
+}
+
+.shop-card-btn input {
+    background-color: transparent;
+    border: 2px solid red;
+    color: red;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-right: 10px;
+}

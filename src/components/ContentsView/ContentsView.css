@@ -1,0 +1,10 @@
+.cards-view {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    column-gap: 100px;
+    row-gap: 40px;
+}
+
+.list-view {
+    width: 100vw;
+}
